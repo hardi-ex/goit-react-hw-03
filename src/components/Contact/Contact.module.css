@@ -1,0 +1,17 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 20px;
+  color: rgb(26, 31, 69);
+}

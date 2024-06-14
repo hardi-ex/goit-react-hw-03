@@ -1,0 +1,31 @@
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 260px;
+  padding: 10px;
+  gap: 12px;
+  border: 1px solid rgb(26, 31, 69);
+  border-radius: 10px;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: rgb(26, 31, 69);
+  color: white;
+  padding: 8px;
+
+  &:hover {
+    background-color: rgb(85, 99, 186);
+    transition: background-color 250ms ease-in-out;
+  }
+}
