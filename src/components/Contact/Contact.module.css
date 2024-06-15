@@ -1,3 +1,10 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
 .div {
   display: flex;
   flex-direction: column;
@@ -14,4 +21,16 @@
 .icon {
   font-size: 20px;
   color: rgb(26, 31, 69);
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: rgb(26, 31, 69);
+  color: white;
+  padding: 8px;
+
+  &:hover {
+    background-color: rgb(85, 99, 186);
+    transition: background-color 250ms ease-in-out;
+  }
 }
